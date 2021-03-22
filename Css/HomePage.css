@@ -41,7 +41,7 @@ body{
     width: 93%;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
 }
 .imageArea{
     width: 60%;
@@ -65,7 +65,7 @@ body{
 }
 .contentArea{
     width: 50%;
-    margin-top: 6%;
+    margin-top: -5%;
 }
 .contentArea h1{
     font-family: 'Poppins';
@@ -218,12 +218,13 @@ body{
 .rightThirdSection p{
     margin-top: 4%;
     font-family: 'Poppins';
+    width: 80%;
 }
 .request_btn{
     margin-top: 7%;
 }
 .request_btn button{
-     width: 40%;
+     width: 30%;
     height: 60px;
     outline: none;
     border: none;
@@ -234,8 +235,18 @@ body{
     font-size: 0.9rem;
     border-radius: 15px;
     cursor: pointer;
+    margin-right: 30px;
 }
-
+.learnMoreBtn{
+    background-color: transparent !important;
+    color: #1B2050 !important;
+    border: 2px solid #1B2050 !important;
+    transition: 0.5s ease-in-out;
+}
+.learnMoreBtn:hover{
+    box-shadow: inset 400px 0 0 0 #1B2050 !important;
+    color: #fff !important;
+}
 
 
 .mainTestimonial{
